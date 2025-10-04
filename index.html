@@ -45,6 +45,23 @@
       em {
         color: #444; /* subtle gray for journals */
       }
+      /* Email icon button */
+      .email-icon {
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        background: #0a7ac7;   /* blue background */
+        border-radius: 50%;    /* circle */
+        line-height: 36px;     /* vertically center ✉ */
+        text-align: center;
+        color: #fff;           /* white envelope */
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .email-icon:hover {
+        background: #065c9d;   /* darker on hover */
+      }
     </style>
   </head>
   <body>
@@ -56,7 +73,6 @@
       <a href="https://scholar.google.com/citations?user=W_2tYq4AAAAJ" target="_blank" class="textlink">Google Scholar</a> | 
       <a href="MillerAlexandraCV2025.pdf" target="_blank" rel="noopener" class="textlink">CV</a>
     </p>
-  </body>
 
     <div class="publist">
       <p>
@@ -93,6 +109,8 @@
     </div>
 
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:miller.alexandrajade@gmail.com">miller.alexandrajade@gmail.com</a></p>
+    <p>
+      <a class="email-icon" href="mailto:miller.alexandrajade@gmail.com">✉</a>
+    </p>
   </body>
 </html>
